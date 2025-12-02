@@ -35,3 +35,4 @@ def password(filename):
     return number_of_zeros
 
 print(password("src/day1/day1.txt"))
+print(password("src/day1/test_day1.txt"))
