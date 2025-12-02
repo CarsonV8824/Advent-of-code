@@ -23,8 +23,10 @@ def id(filename):
             
             if first_num == second_num:
                 number = str(first_num) + str(second_num)
+                print(number)
                 total += int(number)
-    return total
+    
+    return f"the total sum of your id's is {total}"
             
         
 
